@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+.second {
+  background-color: #2c2822;
+}
+
+.main {
+  background-color: #685daf;
+}
+
+.card-bg {
+  background-color: #474650;
+}
+
+.task-text {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.checkbox-large {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+#addButton {
+  margin: 0;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  font-size: 40px;
+}
+
+.addTaskBtn {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #d9d9d9;
+  color: #474650;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  font-size: 40px;
+}
+
+.addTaskBtn:hover {
+  background-color: #685daf;
+  color: #d9d9d9;
+  transition: 0.2s;
+}
+
+.addTaskBtn:active {
+  background-color: #685daf90;
+}
+
+.addBtn {
+  background-color: #685daf;
+  color: #ffffff;
+}
+
+.addBtn:hover {
+  background-color: #7ed64a;
+  color: #2c2822;
+  transition: 0.2s;
+}
+
+.btn.addBtn:active {
+  background-color: #73f129;
+  color: #2c2822;
+}
+
+.form-check-input:checked {
+  background-color: green;
+  border-color: green;
+}
+
+.form-check-input:checked+label{
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+label~.btn.white:hover {
+  color: #685daf;
+  transition: 0.2s;
+}
